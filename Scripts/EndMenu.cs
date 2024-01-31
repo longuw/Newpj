@@ -8,5 +8,6 @@ public class EndMenu : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+        SceneManager.LoadScene(sceneBuildIndex: 0);
     }    
 }
