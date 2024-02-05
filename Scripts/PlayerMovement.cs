@@ -46,7 +46,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    bool isGrounded() //khi chạm đất mới có thể nhảy tiếp
+    bool isGrounded() //whenever player ground floor, player can jump in next time 
     {
         return Physics.CheckSphere(groundCheck.position, .1f, ground);
     }
